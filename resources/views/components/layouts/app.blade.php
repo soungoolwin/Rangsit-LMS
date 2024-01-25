@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ $title ?? 'Page Title' }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mooli&family=Poppins&family=Roboto+Condensed:wght@300;700&display=swap"
+        rel="stylesheet">
     @vite('resources/css/app.css')
 
     @livewireStyles
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
 
     {{ $slot }}
 
