@@ -18,17 +18,8 @@
 
 <body style="font-family: 'Poppins', sans-serif;">
 
-    <x-navigation>
-        <div class="flex-1 transition-margin duration-300 mt-[90px]"
-            :class="{ 'ml-0': !sidebarOpen, 'ml-64': sidebarOpen }">
-            <main class="p-4 bg-[#F8F9FA]">
-                {{ $slot }}
-            </main>
-        </div>
-    </x-navigation>
+    {{ $slot }}
 
-
-    <x-footer />
     @livewireScripts
 </body>
 

@@ -1,5 +1,5 @@
-<x-layouts.app>
-    <x-navigation />
+<x-layouts.guest>
+    <x-guest-navigation />
     <div class="h-[250px] lg:h-[550px]"
         style="background-image: url('{{ Vite::image('loginhero.png') }}'); background-size: cover; background-position: top;">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
@@ -20,4 +20,4 @@
     </div>
     <x-usermanual />
     <x-footer />
-</x-layouts.app>
+</x-layouts.guest>
