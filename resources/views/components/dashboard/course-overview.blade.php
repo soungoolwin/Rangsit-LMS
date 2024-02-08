@@ -5,17 +5,32 @@
 
     <div class="flex justify-between">
         <div>
+            {{-- this is livewire component for dropdown to pass dynamically data --}}
             <livewire:dropdown-menu :options="[
-                'button_text' => 'Options',
+                'button_text' => 'In Progress',
                 'menu_items' => [
-                    ['text' => 'New Tasks', 'url' => '#'],
-                    ['text' => 'Edit Tasks', 'url' => '#'],
-                    ['text' => 'Delete Tasks', 'url' => '#', 'disabled' => true],
+                    ['text' => 'All(except removed from view)', 'url' => '#'],
+                    ['text' => 'In progress', 'url' => '#'],
+                    ['text' => 'Future', 'url' => '#', 'disabled' => true],
+                    ['text' => 'Past', 'url' => '#', 'disabled' => true],
+                    ['text' => 'Stared', 'url' => '#', 'disabled' => true],
+                    ['text' => 'Removed from view', 'url' => '#', 'disabled' => true],
                 ],
             ]" />
         </div>
-        <div>
-            <h1>Course name</h1>
+        <div class="flex">
+            <livewire:dropdown-menu :options="[
+                'button_text' => 'Course name',
+                'menu_items' => [['text' => 'Course name', 'url' => '#'], ['text' => 'Last accessed', 'url' => '#']],
+            ]" />
+            <livewire:dropdown-menu :options="[
+                'button_text' => 'Card',
+                'menu_items' => [
+                    ['text' => 'Card', 'url' => '#'],
+                    ['text' => 'List', 'url' => '#'],
+                    ['text' => 'Summary', 'url' => '#', 'disabled' => true],
+                ],
+            ]" />
         </div>
     </div>
 
@@ -66,8 +81,8 @@
                     <h1>Information and Communication Technology</h1>
                     <h1>ICT101 Object-Oriented Technology</h1>
                 </div>
-                <div class="w-full bg-white border rounded-full h-2.0 mt-5">
-                    <div class="bg-[#253237] h-2.0 rounded-full" style="width: 45%"></div>
+                <div class="w-full bg-white border rounded-full h-2.5 mt-5">
+                    <div class="bg-[#253237] h-2.5 rounded-full" style="width: 45%"></div>
                 </div>
                 <h1 class="mt-3">0% complete</h1>
             </div>
