@@ -69,7 +69,7 @@
                         </svg>
                         <span class="text-white">Menu</span>
                     </a>
-                    <a href="#" class="p-2 flex w-[90%] mx-auto ml-6 mt-[40px]">
+                    <a href="/dashboard" class="p-2 flex w-[90%] mx-auto ml-6 mt-[40px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 text-white mr-5"
                             :class="{ 'absolute right-1': !sidebarOpen, 'md:relative': sidebarOpen }">
@@ -78,7 +78,7 @@
                         </svg>
                         <span class="text-white">Dashboard</span>
                     </a>
-                    <a href="#" class="p-2 flex w-[90%] mx-auto ml-6 mt-[20px]">
+                    <a href="/home" class="p-2 flex w-[90%] mx-auto ml-6 mt-[20px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 text-white mr-5"
                             :class="{ 'absolute right-1': !sidebarOpen, 'md:relative': sidebarOpen }">

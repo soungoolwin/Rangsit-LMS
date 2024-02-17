@@ -7,7 +7,6 @@
         <div>
             {{-- this is livewire component for dropdown to pass dynamically data --}}
             <livewire:dropdown-menu :options="[
-                'button_text' => 'In Progress',
                 'menu_items' => [
                     ['text' => 'All(except removed from view)', 'url' => '#'],
                     ['text' => 'In progress', 'url' => '#'],

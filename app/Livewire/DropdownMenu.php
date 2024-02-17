@@ -11,7 +11,7 @@ class DropdownMenu extends Component
     public function mount($options)
     {
         $this->options = $options;
-        $this->options['button_text'] = $this->options['menu_items'][0]['text'] ?? 'Options';
+        $this->options['button_text'] = $this->options['menu_items'][1]['text'] ?? 'Options';
     }
 
     public function changeButtonText($index)
