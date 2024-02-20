@@ -1,6 +1,6 @@
 <?php
 
-use App\Livewire\Counter;
+use App\Livewire\Certificates;
 use App\Livewire\Courses;
 use App\Livewire\Dashboard;
 use App\Livewire\SiteHome;
@@ -30,3 +30,4 @@ Route::get('/dashboard', Dashboard::class);
 
 
 Route::get('/dashboard/courses/{categories}/{subcategories}', Courses::class);
+Route::get('/dashboard/certificates', Certificates::class);
