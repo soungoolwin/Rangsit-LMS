@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mooli&family=Poppins&family=Roboto+Condensed:wght@300;700&display=swap"
         rel="stylesheet">
     @vite('resources/css/app.css')
+    @vite('resources/css/style.css')
 
     @livewireStyles
 </head>

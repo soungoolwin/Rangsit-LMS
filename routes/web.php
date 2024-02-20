@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Counter;
+use App\Livewire\Courses;
 use App\Livewire\Dashboard;
 use App\Livewire\SiteHome;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,7 @@ Route::get('/login', function () {
 
 Route::get('/home', SiteHome::class);
 Route::get('/dashboard', Dashboard::class);
+
+
+
+Route::get('/dashboard/courses/{categories}/{subcategories}', Courses::class);
