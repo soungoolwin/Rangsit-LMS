@@ -3,6 +3,7 @@
 use App\Livewire\Certificates;
 use App\Livewire\Courses;
 use App\Livewire\Dashboard;
+use App\Livewire\PrivateFiles;
 use App\Livewire\SiteHome;
 use Illuminate\Support\Facades\Route;
 
@@ -31,3 +32,4 @@ Route::get('/dashboard', Dashboard::class);
 
 Route::get('/dashboard/courses/{categories}/{subcategories}', Courses::class);
 Route::get('/dashboard/certificates', Certificates::class);
+Route::get('/dashboard/private-files', PrivateFiles::class);
