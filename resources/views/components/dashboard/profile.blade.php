@@ -1,7 +1,7 @@
-<div class="mx-auto bg-white rounded overflow-hidden shadow-md px-5 py-6">
+<div class="px-5 py-6 mx-auto overflow-hidden bg-white rounded shadow-md">
     <div class="flex">
-        <img src="{{ Vite::image('profile_pic.png') }}" alt="" class="rounded-full ml-5">
-        <h1 class="ml-5 mt-2 text-2xl">SAUNG OO LWIN</h1>
+        <img src="{{ Vite::image('profile_pic.png') }}" alt="" class="ml-5 rounded-full">
+        <h1 class="mt-2 ml-5 text-2xl">SAUNG OO LWIN</h1>
         <span class="flex ml-3">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
@@ -11,7 +11,7 @@
             <p>Message</p>
         </span>
     </div>
-    <div class="flex flex-row-reverse">
+      <div class="flex flex-row-reverse">
         <button class="bg-[#B8C1CA] py-2 px-2">Customise this page</button>
     </div>
 </div>
